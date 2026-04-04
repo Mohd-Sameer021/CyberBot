@@ -359,16 +359,7 @@ ask = st.button("Ask")
 # -----------------------------
 if ask and query:
 
-    # ✅ MULTI LAW FILTER
-    keywords = [
-        "cyber", "hack", "online", "fraud", "phishing", "it act",
-        "ipc", "bns", "criminal", "crime", "section",
-        "punishment", "murder", "theft", "cheating"
-    ]
-
-    if not any(word in query.lower() for word in keywords):
-        st.warning("❌ This bot only answers Cyber Law and Criminal Law queries.")
-        st.stop()
+    # Removed the hardcoded keyword filter so the LLM evaluates the queries based on its strict system prompt.
 
     docs = retriever.invoke(query)
     context = "\n\n".join([doc.page_content for doc in docs])
