@@ -348,12 +348,12 @@ st.markdown("""
 # -----------------------------
 st.markdown('<div class="card">', unsafe_allow_html=True)
 
-st.markdown('<div class="title">⚖️ Cyber Bot</div>', unsafe_allow_html=True)
-st.markdown('<div class="subtitle">Cyber Law • IT Act • IPC • BNS • Criminal Law</div>', unsafe_allow_html=True)
 
+st.markdown('<div class="title">⚖️ Cyber Bot</div>', unsafe_allow_html=True)
+st.markdown('<div class="subtitle">Your Legal Guide to Cyber Crimes, IT Act 2000, and Criminal Law</div>', unsafe_allow_html=True)
+st.markdown('<div class="subtitle">Digital AI Assistant for any legal queries</div>', unsafe_allow_html=True)
 query = st.text_input("", placeholder="Ask your legal question...")
 ask = st.button("Ask")
-
 # -----------------------------
 # MAIN LOGIC
 # -----------------------------
@@ -404,9 +404,11 @@ DOCUMENT CONTEXT:
 # FOOTER
 # -----------------------------
 st.markdown("""
-<p style='color:#f87171;text-align:center;'>
-⚠️ For educational purposes only
-</p>
-""", unsafe_allow_html=True)
+ <div class="note">
+ ⚠️ Note: This is for informational purposes only.
+ 👉 Type <b>exit</b> to end chat.
+ </div>
+ <div class="footer">© 2026 CyberBot</div>
+ """, unsafe_allow_html=True)
 
 st.markdown('</div>', unsafe_allow_html=True)
