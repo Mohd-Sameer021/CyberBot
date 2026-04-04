@@ -35,7 +35,11 @@ if not os.path.exists("vectorstore"):
     for file in os.listdir("docs"):
         if file.endswith(".pdf"):
             loader = PyPDFLoader(f"docs/{file}")
-            documents.extend(loader.load())
+            #documents.extend(loader.load())
+            try:
+                documents.extend(loader.load())
+            except Exception as e:
+                print(f"Error loading PDF:{e}")
 
     splitter = RecursiveCharacterTextSplitter(
         chunk_size=500,
