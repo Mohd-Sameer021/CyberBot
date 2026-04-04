@@ -408,6 +408,7 @@ DOCUMENT CONTEXT:
 st.markdown("""
  <div class="note">
  ⚠️ Note: This is for informational purposes only.
+ 👉 If you need legal help , please consult a qualified legal advisor.           
  👉 Type <b>exit</b> to end chat.
  </div>
  <div class="footer">© 2026 CyberBot</div>
