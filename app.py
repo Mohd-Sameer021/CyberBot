@@ -340,6 +340,8 @@ st.markdown("""
     padding:15px;
     border-radius:10px;
 }
+
+.note{color:#cbd5e1;margin-top:10px;}
 </style>
 """, unsafe_allow_html=True)
 
