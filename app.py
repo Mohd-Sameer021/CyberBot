@@ -131,7 +131,7 @@ DOCUMENT CONTEXT:
 {context}"""
 
     response = client.chat.completions.create(
-        model="llama-3.18b-instant",
+        model="llama-3.1-8b-instant",
         temperature=0.0,
         messages=[
             {"role": "system", "content": system_msg},
