@@ -59,10 +59,8 @@ print("Creating FAISS vector database...")
 
 vectorstore = FAISS.from_documents(chunks, embeddings)
 
-
 print("Saving vector database...")
 
 vectorstore.save_local("vectorstore")
-
 
 print("Vector database created successfully!")
