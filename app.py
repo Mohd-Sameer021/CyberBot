@@ -114,7 +114,7 @@ if ask and query:
 
 YOUR DOMAIN IS STRICTLY LIMITED TO:
 - Cyber Law
-- Cyber Crime (including hacking, piracy, digital theft, online fraud)
+- Cyber Crime (including hacking, piracy, digital theft, online fraud,pirated content)
 - IT Act 2000
 - Intellectual Property and Copyright Law (including copying courses, movies, software piracy)
 - Indian Penal Code (IPC)
